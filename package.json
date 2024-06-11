@@ -1,0 +1,23 @@
+{
+  "name": "discord-bump-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for bumping servers with premium functionalities.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.6.0",
+    "discord-api-types": "^0.37.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.14"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
